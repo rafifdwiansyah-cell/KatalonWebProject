@@ -1,0 +1,222 @@
+2026-03-28 17:17:18.208 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback default configuration initialized from: C:\Users\T14\.katalon\packages\KS-11.0.0\configuration\org.eclipse.osgi\148\0\.cp\resources\logback\logback-execution.xml
+2026-03-28 17:17:18.210 INFO  c.k.k.c.l.logback.LogbackConfigurator    - Logback custom configuration initialized from: C:\Users\T14\Katalon Studio\webdemo_Katalon\Include\config\log.properties
+2026-03-28 17:17:18.321 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/TS_Appointment
+2026-03-28 17:17:18.406 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Rafif Okta Dwiansyah
+2026-03-28 17:17:18.407 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = webdemo_Katalon
+2026-03-28 17:17:18.408 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = T14 - Rakta
+2026-03-28 17:17:18.409 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2026-03-28 17:17:18.410 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.100.87
+2026-03-28 17:17:18.411 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 11.0.0.0
+2026-03-28 17:17:18.853 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-28 17:17:18.853 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login
+2026-03-28 17:17:18.927 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = John Doe
+2026-03-28 17:17:18.927 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = ThisIsNotAPassword
+2026-03-28 17:17:19.267 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-03-28 17:17:19.506 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-28 17:17:19.562 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 28, 2026 5:17:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 146
+2026-03-28 17:17:21.177 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 7564febf4f783c24ee08e4bb247b2ec8
+2026-03-28 17:17:21.179 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 146.0.7680.165
+2026-03-28 17:17:21.180 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-28 17:17:21.181 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-28 17:17:21.188 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-28 17:17:21.237 DEBUG testcase.Login                           - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2026-03-28 17:17:23.899 DEBUG testcase.Login                           - 3: click(findTestObject("Login/btn_MakeAppointment"))
+2026-03-28 17:17:24.784 DEBUG testcase.Login                           - 4: setText(findTestObject("Login/txt_Username"), Username)
+2026-03-28 17:17:25.685 DEBUG testcase.Login                           - 5: setText(findTestObject("Login/txt_Password"), Password)
+2026-03-28 17:17:26.378 DEBUG testcase.Login                           - 6: click(findTestObject("Login/btn_Login"))
+2026-03-28 17:17:26.724 DEBUG testcase.Login                           - 7: loginSuccess = verifyElementPresent(findTestObject("Dashboard Page/btn_Book appointment"), 5, OPTIONAL)
+2026-03-28 17:17:27.765 DEBUG testcase.Login                           - 8: delay(3)
+2026-03-28 17:17:30.814 DEBUG testcase.Login                           - 9: if (!(loginSuccess))
+2026-03-28 17:17:30.819 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login
+2026-03-28 17:17:30.837 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-28 17:17:30.837 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login
+2026-03-28 17:17:30.850 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = John Doe
+2026-03-28 17:17:30.851 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = ThisIsNotAPasswo
+2026-03-28 17:17:30.853 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-03-28 17:17:30.855 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-28 17:17:31.052 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-28 17:17:31.056 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 28, 2026 5:17:31 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 146
+2026-03-28 17:17:31.882 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = b94c47cdee1dc59346e09f0e61d69cc2
+2026-03-28 17:17:31.883 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 146.0.7680.165
+2026-03-28 17:17:31.883 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-28 17:17:31.884 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-28 17:17:31.886 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-28 17:17:31.910 DEBUG testcase.Login                           - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2026-03-28 17:17:34.631 DEBUG testcase.Login                           - 3: click(findTestObject("Login/btn_MakeAppointment"))
+2026-03-28 17:17:35.372 DEBUG testcase.Login                           - 4: setText(findTestObject("Login/txt_Username"), Username)
+2026-03-28 17:17:36.344 DEBUG testcase.Login                           - 5: setText(findTestObject("Login/txt_Password"), Password)
+2026-03-28 17:17:37.066 DEBUG testcase.Login                           - 6: click(findTestObject("Login/btn_Login"))
+2026-03-28 17:17:37.419 DEBUG testcase.Login                           - 7: loginSuccess = verifyElementPresent(findTestObject("Dashboard Page/btn_Book appointment"), 5, OPTIONAL)
+2026-03-28 17:17:42.489 WARN  c.k.k.core.keyword.internal.KeywordMain  - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/btn_Book appointment' located by 'By.xpath: //*[@id = 'btn-book-appointment']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/btn_Book appointment' located by 'By.xpath: //*[@id = 'btn-book-appointment']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1549)
+	at Login.run(Login:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+2026-03-28 17:17:42.491 DEBUG testcase.Login                           - 8: delay(3)
+2026-03-28 17:17:45.508 DEBUG testcase.Login                           - 9: if (!(loginSuccess))
+2026-03-28 17:17:45.510 DEBUG testcase.Login                           - 1: verifyTextPresent("Login failed! Please ensure the username and password are valid.", false, OPTIONAL)
+2026-03-28 17:17:45.784 DEBUG testcase.Login                           - 2: timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date())
+2026-03-28 17:17:45.801 DEBUG testcase.Login                           - 3: takeScreenshot("Screenshots/FAILED_" + timestamp + ".png")
+2026-03-28 17:17:46.130 DEBUG testcase.Login                           - 4: delay(5)
+2026-03-28 17:17:51.145 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login
+2026-03-28 17:17:51.153 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-28 17:17:51.153 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login
+2026-03-28 17:17:51.169 INFO  c.k.katalon.core.main.TestCaseExecutor   - Username = John Doe
+2026-03-28 17:17:51.170 INFO  c.k.katalon.core.main.TestCaseExecutor   - Password = ThisIsNotAPassword
+2026-03-28 17:17:51.173 DEBUG testcase.Login                           - 1: openBrowser("")
+2026-03-28 17:17:51.174 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2026-03-28 17:17:51.337 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2026-03-28 17:17:51.339 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Mar 28, 2026 5:17:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 146, returning the closest version; found: 143; Please update to a Selenium version that supports CDP version 146
+2026-03-28 17:17:52.071 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f76ddb093e6d71fd5da03225771f928a
+2026-03-28 17:17:52.072 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 146.0.7680.165
+2026-03-28 17:17:52.072 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2026-03-28 17:17:52.073 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.39.0
+2026-03-28 17:17:52.074 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2026-03-28 17:17:52.091 DEBUG testcase.Login                           - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2026-03-28 17:17:55.072 DEBUG testcase.Login                           - 3: click(findTestObject("Login/btn_MakeAppointment"))
+2026-03-28 17:17:55.851 DEBUG testcase.Login                           - 4: setText(findTestObject("Login/txt_Username"), Username)
+2026-03-28 17:17:56.774 DEBUG testcase.Login                           - 5: setText(findTestObject("Login/txt_Password"), Password)
+2026-03-28 17:17:57.415 DEBUG testcase.Login                           - 6: click(findTestObject("Login/btn_Login"))
+2026-03-28 17:17:57.757 DEBUG testcase.Login                           - 7: loginSuccess = verifyElementPresent(findTestObject("Dashboard Page/btn_Book appointment"), 5, OPTIONAL)
+2026-03-28 17:17:58.795 DEBUG testcase.Login                           - 8: delay(3)
+2026-03-28 17:18:01.803 DEBUG testcase.Login                           - 9: if (!(loginSuccess))
+2026-03-28 17:18:01.807 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login
+2026-03-28 17:18:01.861 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-28 17:18:01.861 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Make Appointment
+2026-03-28 17:18:01.900 INFO  c.k.katalon.core.main.TestCaseExecutor   - facility = Hongkong
+2026-03-28 17:18:01.901 INFO  c.k.katalon.core.main.TestCaseExecutor   - Apply = Yes
+2026-03-28 17:18:01.901 INFO  c.k.katalon.core.main.TestCaseExecutor   - Healthcare_Program = None
+2026-03-28 17:18:01.901 INFO  c.k.katalon.core.main.TestCaseExecutor   - Visit_Date = 28/02/2026
+2026-03-28 17:18:01.901 INFO  c.k.katalon.core.main.TestCaseExecutor   - Comment = OK
+2026-03-28 17:18:02.091 DEBUG testcase.Make Appointment                - 1: switch (facility.toLowerCase())
+2026-03-28 17:18:02.093 DEBUG testcase.Make Appointment                - 2: case "hongkong":
+2026-03-28 17:18:02.096 DEBUG testcase.Make Appointment                - 1: click(findTestObject("Dashboard Page/select_FacilityHongkong"))
+2026-03-28 17:18:12.122 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-03-28 17:18:12.154 DEBUG testcase.Make Appointment                - 2: break
+2026-03-28 17:18:12.155 DEBUG testcase.Make Appointment                - 2: if (Apply.equalsIgnoreCase("Yes"))
+2026-03-28 17:18:12.164 DEBUG testcase.Make Appointment                - 1: click(findTestObject("Object Repository/Dashboard Page/check_Apply for hospital readmission"))
+2026-03-28 17:18:12.506 DEBUG testcase.Make Appointment                - 3: if (Healthcare_Program.equalsIgnoreCase("Medicaid"))
+2026-03-28 17:18:12.509 DEBUG testcase.Make Appointment                - 4: else if (Healthcare_Program.equalsIgnoreCase("Medicare"))
+2026-03-28 17:18:12.511 DEBUG testcase.Make Appointment                - 5: else if (Healthcare_Program.equalsIgnoreCase("None"))
+2026-03-28 17:18:12.513 DEBUG testcase.Make Appointment                - 1: click(findTestObject("Dashboard Page/btn_RadioNone"))
+2026-03-28 17:18:12.848 DEBUG testcase.Make Appointment                - 7: setText(findTestObject("Dashboard Page/txt_Date"), Visit_Date)
+2026-03-28 17:18:13.598 DEBUG testcase.Make Appointment                - 8: sendKeys(findTestObject("Dashboard Page/txt_Date"), Keys.chord(TAB))
+2026-03-28 17:18:14.154 DEBUG testcase.Make Appointment                - 9: setText(findTestObject("Dashboard Page/txt_Comment"), Comment)
+2026-03-28 17:18:15.035 DEBUG testcase.Make Appointment                - 10: click(findTestObject("Dashboard Page/btn_Book appointment"))
+2026-03-28 17:18:15.696 DEBUG testcase.Make Appointment                - 11: verifyTextPresent("Appointment Confirmation", false)
+2026-03-28 17:18:16.229 DEBUG testcase.Make Appointment                - 12: timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date())
+2026-03-28 17:18:16.231 DEBUG testcase.Make Appointment                - 13: path = "Screenshots/screenshot_" + timestamp + ".png"
+2026-03-28 17:18:16.233 DEBUG testcase.Make Appointment                - 14: takeScreenshot(path)
+2026-03-28 17:18:16.570 DEBUG testcase.Make Appointment                - 15: click(findTestObject("Dashboard Page/btn_Go to Homepage"))
+2026-03-28 17:18:17.223 DEBUG testcase.Make Appointment                - 16: verifyTextPresent("CURA Healthcare Service", false)
+2026-03-28 17:18:17.708 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Make Appointment
+2026-03-28 17:18:17.751 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-28 17:18:17.751 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Make Appointment
+2026-03-28 17:18:17.765 INFO  c.k.katalon.core.main.TestCaseExecutor   - facility = Seoul
+2026-03-28 17:18:17.766 INFO  c.k.katalon.core.main.TestCaseExecutor   - Apply = No
+2026-03-28 17:18:17.766 INFO  c.k.katalon.core.main.TestCaseExecutor   - Healthcare_Program = Medicaid
+2026-03-28 17:18:17.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - Visit_Date = 28/03/2026
+2026-03-28 17:18:17.767 INFO  c.k.katalon.core.main.TestCaseExecutor   - Comment = OK
+2026-03-28 17:18:17.770 DEBUG testcase.Make Appointment                - 1: switch (facility.toLowerCase())
+2026-03-28 17:18:17.771 DEBUG testcase.Make Appointment                - 3: case "seoul":
+2026-03-28 17:18:17.772 DEBUG testcase.Make Appointment                - 1: click(findTestObject("Dashboard Page/select_FacilitySeoul"))
+2026-03-28 17:18:27.802 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-03-28 17:18:27.835 DEBUG testcase.Make Appointment                - 2: break
+2026-03-28 17:18:27.836 DEBUG testcase.Make Appointment                - 2: if (Apply.equalsIgnoreCase("Yes"))
+2026-03-28 17:18:27.837 DEBUG testcase.Make Appointment                - 3: if (Healthcare_Program.equalsIgnoreCase("Medicaid"))
+2026-03-28 17:18:27.839 DEBUG testcase.Make Appointment                - 1: click(findTestObject("Dashboard Page/btn_RadioMedicaid"))
+2026-03-28 17:18:28.189 DEBUG testcase.Make Appointment                - 7: setText(findTestObject("Dashboard Page/txt_Date"), Visit_Date)
+2026-03-28 17:18:29.219 DEBUG testcase.Make Appointment                - 8: sendKeys(findTestObject("Dashboard Page/txt_Date"), Keys.chord(TAB))
+2026-03-28 17:18:29.753 DEBUG testcase.Make Appointment                - 9: setText(findTestObject("Dashboard Page/txt_Comment"), Comment)
+2026-03-28 17:18:30.613 DEBUG testcase.Make Appointment                - 10: click(findTestObject("Dashboard Page/btn_Book appointment"))
+2026-03-28 17:18:30.962 DEBUG testcase.Make Appointment                - 11: verifyTextPresent("Appointment Confirmation", false)
+2026-03-28 17:18:31.733 DEBUG testcase.Make Appointment                - 12: timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date())
+2026-03-28 17:18:31.734 DEBUG testcase.Make Appointment                - 13: path = "Screenshots/screenshot_" + timestamp + ".png"
+2026-03-28 17:18:31.734 DEBUG testcase.Make Appointment                - 14: takeScreenshot(path)
+2026-03-28 17:18:32.078 DEBUG testcase.Make Appointment                - 15: click(findTestObject("Dashboard Page/btn_Go to Homepage"))
+2026-03-28 17:18:32.731 DEBUG testcase.Make Appointment                - 16: verifyTextPresent("CURA Healthcare Service", false)
+2026-03-28 17:18:33.225 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Make Appointment
+2026-03-28 17:18:33.253 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-28 17:18:33.253 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Make Appointment
+2026-03-28 17:18:33.265 INFO  c.k.katalon.core.main.TestCaseExecutor   - facility = Tokyo
+2026-03-28 17:18:33.265 INFO  c.k.katalon.core.main.TestCaseExecutor   - Apply = Yes
+2026-03-28 17:18:33.266 INFO  c.k.katalon.core.main.TestCaseExecutor   - Healthcare_Program = Medicare
+2026-03-28 17:18:33.266 INFO  c.k.katalon.core.main.TestCaseExecutor   - Visit_Date = 22/03/2026
+2026-03-28 17:18:33.266 INFO  c.k.katalon.core.main.TestCaseExecutor   - Comment = OK
+2026-03-28 17:18:33.268 DEBUG testcase.Make Appointment                - 1: switch (facility.toLowerCase())
+2026-03-28 17:18:33.269 DEBUG testcase.Make Appointment                - 1: case "tokyo":
+2026-03-28 17:18:33.270 DEBUG testcase.Make Appointment                - 1: click(findTestObject("Dashboard Page/select_FacilityTokyo"))
+2026-03-28 17:18:43.294 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-03-28 17:18:43.320 DEBUG testcase.Make Appointment                - 2: break
+2026-03-28 17:18:43.321 DEBUG testcase.Make Appointment                - 2: if (Apply.equalsIgnoreCase("Yes"))
+2026-03-28 17:18:43.322 DEBUG testcase.Make Appointment                - 1: click(findTestObject("Object Repository/Dashboard Page/check_Apply for hospital readmission"))
+2026-03-28 17:18:43.674 DEBUG testcase.Make Appointment                - 3: if (Healthcare_Program.equalsIgnoreCase("Medicaid"))
+2026-03-28 17:18:43.676 DEBUG testcase.Make Appointment                - 4: else if (Healthcare_Program.equalsIgnoreCase("Medicare"))
+2026-03-28 17:18:43.680 DEBUG testcase.Make Appointment                - 1: click(findTestObject("Dashboard Page/btn_RadioMedicare"))
+2026-03-28 17:18:44.022 DEBUG testcase.Make Appointment                - 7: setText(findTestObject("Dashboard Page/txt_Date"), Visit_Date)
+2026-03-28 17:18:44.956 DEBUG testcase.Make Appointment                - 8: sendKeys(findTestObject("Dashboard Page/txt_Date"), Keys.chord(TAB))
+2026-03-28 17:18:45.485 DEBUG testcase.Make Appointment                - 9: setText(findTestObject("Dashboard Page/txt_Comment"), Comment)
+2026-03-28 17:18:46.366 DEBUG testcase.Make Appointment                - 10: click(findTestObject("Dashboard Page/btn_Book appointment"))
+2026-03-28 17:18:46.707 DEBUG testcase.Make Appointment                - 11: verifyTextPresent("Appointment Confirmation", false)
+2026-03-28 17:18:47.487 DEBUG testcase.Make Appointment                - 12: timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date())
+2026-03-28 17:18:47.488 DEBUG testcase.Make Appointment                - 13: path = "Screenshots/screenshot_" + timestamp + ".png"
+2026-03-28 17:18:47.489 DEBUG testcase.Make Appointment                - 14: takeScreenshot(path)
+2026-03-28 17:18:47.802 DEBUG testcase.Make Appointment                - 15: click(findTestObject("Dashboard Page/btn_Go to Homepage"))
+2026-03-28 17:18:48.462 DEBUG testcase.Make Appointment                - 16: verifyTextPresent("CURA Healthcare Service", false)
+2026-03-28 17:18:48.961 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Make Appointment
+2026-03-28 17:18:48.971 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2026-03-28 17:18:48.971 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Make Appointment
+2026-03-28 17:18:48.982 INFO  c.k.katalon.core.main.TestCaseExecutor   - facility = Seoul
+2026-03-28 17:18:48.982 INFO  c.k.katalon.core.main.TestCaseExecutor   - Apply = No
+2026-03-28 17:18:48.982 INFO  c.k.katalon.core.main.TestCaseExecutor   - Healthcare_Program = None
+2026-03-28 17:18:48.983 INFO  c.k.katalon.core.main.TestCaseExecutor   - Visit_Date = 22/01/2026
+2026-03-28 17:18:48.993 INFO  c.k.katalon.core.main.TestCaseExecutor   - (Default) Comment = 
+2026-03-28 17:18:48.996 DEBUG testcase.Make Appointment                - 1: switch (facility.toLowerCase())
+2026-03-28 17:18:48.997 DEBUG testcase.Make Appointment                - 3: case "seoul":
+2026-03-28 17:18:48.997 DEBUG testcase.Make Appointment                - 1: click(findTestObject("Dashboard Page/select_FacilitySeoul"))
+2026-03-28 17:18:59.026 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2026-03-28 17:18:59.054 DEBUG testcase.Make Appointment                - 2: break
+2026-03-28 17:18:59.054 DEBUG testcase.Make Appointment                - 2: if (Apply.equalsIgnoreCase("Yes"))
+2026-03-28 17:18:59.055 DEBUG testcase.Make Appointment                - 3: if (Healthcare_Program.equalsIgnoreCase("Medicaid"))
+2026-03-28 17:18:59.056 DEBUG testcase.Make Appointment                - 4: else if (Healthcare_Program.equalsIgnoreCase("Medicare"))
+2026-03-28 17:18:59.056 DEBUG testcase.Make Appointment                - 5: else if (Healthcare_Program.equalsIgnoreCase("None"))
+2026-03-28 17:18:59.057 DEBUG testcase.Make Appointment                - 1: click(findTestObject("Dashboard Page/btn_RadioNone"))
+2026-03-28 17:18:59.404 DEBUG testcase.Make Appointment                - 7: setText(findTestObject("Dashboard Page/txt_Date"), Visit_Date)
+2026-03-28 17:19:00.421 DEBUG testcase.Make Appointment                - 8: sendKeys(findTestObject("Dashboard Page/txt_Date"), Keys.chord(TAB))
+2026-03-28 17:19:00.964 DEBUG testcase.Make Appointment                - 9: setText(findTestObject("Dashboard Page/txt_Comment"), Comment)
+2026-03-28 17:19:01.770 DEBUG testcase.Make Appointment                - 10: click(findTestObject("Dashboard Page/btn_Book appointment"))
+2026-03-28 17:19:02.404 DEBUG testcase.Make Appointment                - 11: verifyTextPresent("Appointment Confirmation", false)
+2026-03-28 17:19:02.926 DEBUG testcase.Make Appointment                - 12: timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date())
+2026-03-28 17:19:02.927 DEBUG testcase.Make Appointment                - 13: path = "Screenshots/screenshot_" + timestamp + ".png"
+2026-03-28 17:19:02.928 DEBUG testcase.Make Appointment                - 14: takeScreenshot(path)
+2026-03-28 17:19:03.255 DEBUG testcase.Make Appointment                - 15: click(findTestObject("Dashboard Page/btn_Go to Homepage"))
+2026-03-28 17:19:03.904 DEBUG testcase.Make Appointment                - 16: verifyTextPresent("CURA Healthcare Service", false)
+2026-03-28 17:19:04.397 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Make Appointment
+2026-03-28 17:19:04.602 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2026-03-28 17:19:04.602 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/TS_Appointment
+2026-03-28 17:19:04.602 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

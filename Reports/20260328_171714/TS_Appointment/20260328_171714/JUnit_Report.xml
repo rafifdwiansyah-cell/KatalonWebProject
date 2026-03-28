@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Appointment" time="106.017" tests="7" failures="0" errors="0">
+   <testsuite name="TS_Appointment" tests="7" failures="0" errors="0" time="106.017" skipped="0" timestamp="2026-03-28T10:17:18.380Z" hostname="T14 - Rakta" id="Test Suites/TS_Appointment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\T14\\Katalon Studio\\webdemo_Katalon\\Reports\\20260328_171714\\TS_Appointment\\20260328_171714"/>
+         <property name="logFiles" value="C:\\Users\\T14\\Katalon Studio\\webdemo_Katalon\\Reports\\20260328_171714\\TS_Appointment\\20260328_171714\\console0.log, C:\\Users\\T14\\Katalon Studio\\webdemo_Katalon\\Reports\\20260328_171714\\TS_Appointment\\20260328_171714\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\T14\\Katalon Studio\\webdemo_Katalon\\Reports\\20260328_171714\\TS_Appointment\\20260328_171714\\Screenshots/FAILED_20260328_171745.png, C:\\Users\\T14\\Katalon Studio\\webdemo_Katalon\\Reports\\20260328_171714\\TS_Appointment\\20260328_171714\\Screenshots/screenshot_20260328_171816.png, C:\\Users\\T14\\Katalon Studio\\webdemo_Katalon\\Reports\\20260328_171714\\TS_Appointment\\20260328_171714\\Screenshots/screenshot_20260328_171831.png, C:\\Users\\T14\\Katalon Studio\\webdemo_Katalon\\Reports\\20260328_171714\\TS_Appointment\\20260328_171714\\Screenshots/screenshot_20260328_171847.png, C:\\Users\\T14\\Katalon Studio\\webdemo_Katalon\\Reports\\20260328_171714\\TS_Appointment\\20260328_171714\\Screenshots/screenshot_20260328_171902.png"/>
+         <property name="executionBindingVariables" value="[&#xa;  {&#xa;    &quot;value&quot;: &quot;Seoul&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;facility&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;No&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;Apply&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;None&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;Healthcare_Program&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;22/01/2026&quot;,&#xa;    &quot;isDefault&quot;: false,&#xa;    &quot;name&quot;: &quot;Visit_Date&quot;,&#xa;    &quot;masked&quot;: false&#xa;  },&#xa;  {&#xa;    &quot;value&quot;: &quot;&quot;,&#xa;    &quot;isDefault&quot;: true,&#xa;    &quot;name&quot;: &quot;Comment&quot;,&#xa;    &quot;masked&quot;: false&#xa;  }&#xa;]"/>
+         <property name="hostName" value="T14 - Rakta"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="11.0.0.0"/>
+         <property name="browser" value="Chrome 146.0.7680.165"/>
+         <property name="userFullName" value="Rafif Okta Dwiansyah"/>
+         <property name="hostAddress" value="192.168.100.87"/>
+         <property name="sessionId" value="f76ddb093e6d71fd5da03225771f928a"/>
+         <property name="projectName" value="webdemo_Katalon"/>
+         <property name="seleniumVersion" value="4.39.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="11.966" classname="f27773a2-522a-4b63-b7b3-521e884ed448" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Username":"John Doe","Password":"ThisIsNotAPassword"}]]></property>
+         </properties>
+         <system-out><![CDATA[28-03-2026T17:17:18 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+28-03-2026T17:17:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-03-2026T17:17:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-03-2026T17:17:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-03-2026T17:17:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-03-2026T17:17:21 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-03-2026T17:17:23 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-03-2026T17:17:23 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn_MakeAppointment")): Object: 'Object Repository/Login/btn_MakeAppointment' is clicked on
+
+28-03-2026T17:17:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_MakeAppointment' is clicked on
+
+28-03-2026T17:17:24 - [TEST_STEP][PASSED] - setText(findTestObject("Login/txt_Username"), Username): Text 'John Doe' is set on object 'Object Repository/Login/txt_Username'
+
+28-03-2026T17:17:25 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/txt_Username'
+
+28-03-2026T17:17:25 - [TEST_STEP][PASSED] - setText(findTestObject("Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/txt_Password'
+
+28-03-2026T17:17:26 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/txt_Password'
+
+28-03-2026T17:17:26 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn_Login")): Object: 'Object Repository/Login/btn_Login' is clicked on
+
+28-03-2026T17:17:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Login' is clicked on
+
+28-03-2026T17:17:26 - [TEST_STEP][PASSED] - loginSuccess = verifyElementPresent(findTestObject("Dashboard Page/btn_Book appointment"), 5, OPTIONAL): Object 'Object Repository/Dashboard Page/btn_Book appointment' is present
+
+28-03-2026T17:17:27 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard Page/btn_Book appointment' is present
+
+28-03-2026T17:17:27 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+28-03-2026T17:17:30 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+28-03-2026T17:17:30 - [TEST_STEP][PASSED] - if (!(loginSuccess)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="20.307" classname="237f8f8f-edfe-4d9d-853d-438e7080bd88" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Username":"John Doe","Password":"ThisIsNotAPasswo"}]]></property>
+         </properties>
+         <system-out><![CDATA[28-03-2026T17:17:30 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+28-03-2026T17:17:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-03-2026T17:17:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-03-2026T17:17:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-03-2026T17:17:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-03-2026T17:17:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-03-2026T17:17:31 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-03-2026T17:17:34 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-03-2026T17:17:34 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn_MakeAppointment")): Object: 'Object Repository/Login/btn_MakeAppointment' is clicked on
+
+28-03-2026T17:17:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_MakeAppointment' is clicked on
+
+28-03-2026T17:17:35 - [TEST_STEP][PASSED] - setText(findTestObject("Login/txt_Username"), Username): Text 'John Doe' is set on object 'Object Repository/Login/txt_Username'
+
+28-03-2026T17:17:36 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/txt_Username'
+
+28-03-2026T17:17:36 - [TEST_STEP][PASSED] - setText(findTestObject("Login/txt_Password"), Password): Text 'ThisIsNotAPasswo' is set on object 'Object Repository/Login/txt_Password'
+
+28-03-2026T17:17:37 - [MESSAGE][PASSED] - Text 'ThisIsNotAPasswo' is set on object 'Object Repository/Login/txt_Password'
+
+28-03-2026T17:17:37 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn_Login")): Object: 'Object Repository/Login/btn_Login' is clicked on
+
+28-03-2026T17:17:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Login' is clicked on
+
+28-03-2026T17:17:37 - [TEST_STEP][WARNING] - loginSuccess = verifyElementPresent(findTestObject("Dashboard Page/btn_Book appointment"), 5, OPTIONAL): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/btn_Book appointment' located by 'By.xpath: //*[@id = 'btn-book-appointment']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/btn_Book appointment' located by 'By.xpath: //*[@id = 'btn-book-appointment']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1549)
+	at Login.run(Login:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+28-03-2026T17:17:42 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/btn_Book appointment' located by 'By.xpath: //*[@id = 'btn-book-appointment']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Dashboard Page/btn_Book appointment' located by 'By.xpath: //*[@id = 'btn-book-appointment']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:177)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:88)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:95)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:95)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1549)
+	at Login.run(Login:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:502)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:493)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:472)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:464)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:334)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:163)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:120)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at S0.run(S0.groovy:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+)
+
+28-03-2026T17:17:42 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+28-03-2026T17:17:45 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+28-03-2026T17:17:45 - [TEST_STEP][PASSED] - if (!(loginSuccess)): Delayed 5 second(s)
+
+28-03-2026T17:17:45 - [TEST_STEP][PASSED] - verifyTextPresent("Login failed! Please ensure the username and password are valid.", false, OPTIONAL): Text 'Login failed! Please ensure the username and password are valid.' is present on page 
+
+28-03-2026T17:17:45 - [MESSAGE][PASSED] - Text 'Login failed! Please ensure the username and password are valid.' is present on page 
+
+28-03-2026T17:17:45 - [TEST_STEP][PASSED] - timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date()): null
+
+28-03-2026T17:17:45 - [TEST_STEP][PASSED] - takeScreenshot("Screenshots/FAILED_" + timestamp + ".png"): Taking screenshot successfully
+
+28-03-2026T17:17:46 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\T14\\Katalon Studio\\webdemo_Katalon\\Reports\\20260328_171714\\TS_Appointment\\20260328_171714\\Screenshots/FAILED_20260328_171745.png]]
+
+28-03-2026T17:17:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-03-2026T17:17:51 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Login" time="10.654" classname="ce5b1271-c4a2-4d60-b177-f554bc791167" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Username":"John Doe","Password":"ThisIsNotAPassword"}]]></property>
+         </properties>
+         <system-out><![CDATA[28-03-2026T17:17:51 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+28-03-2026T17:17:51 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-03-2026T17:17:51 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+28-03-2026T17:17:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-03-2026T17:17:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-03-2026T17:17:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-03-2026T17:17:52 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-03-2026T17:17:55 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+28-03-2026T17:17:55 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn_MakeAppointment")): Object: 'Object Repository/Login/btn_MakeAppointment' is clicked on
+
+28-03-2026T17:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_MakeAppointment' is clicked on
+
+28-03-2026T17:17:55 - [TEST_STEP][PASSED] - setText(findTestObject("Login/txt_Username"), Username): Text 'John Doe' is set on object 'Object Repository/Login/txt_Username'
+
+28-03-2026T17:17:56 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Login/txt_Username'
+
+28-03-2026T17:17:56 - [TEST_STEP][PASSED] - setText(findTestObject("Login/txt_Password"), Password): Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/txt_Password'
+
+28-03-2026T17:17:57 - [MESSAGE][PASSED] - Text 'ThisIsNotAPassword' is set on object 'Object Repository/Login/txt_Password'
+
+28-03-2026T17:17:57 - [TEST_STEP][PASSED] - click(findTestObject("Login/btn_Login")): Object: 'Object Repository/Login/btn_Login' is clicked on
+
+28-03-2026T17:17:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/btn_Login' is clicked on
+
+28-03-2026T17:17:57 - [TEST_STEP][PASSED] - loginSuccess = verifyElementPresent(findTestObject("Dashboard Page/btn_Book appointment"), 5, OPTIONAL): Object 'Object Repository/Dashboard Page/btn_Book appointment' is present
+
+28-03-2026T17:17:58 - [MESSAGE][PASSED] - Object 'Object Repository/Dashboard Page/btn_Book appointment' is present
+
+28-03-2026T17:17:58 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+28-03-2026T17:18:01 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+28-03-2026T17:18:01 - [TEST_STEP][PASSED] - if (!(loginSuccess)): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment" time="15.847" classname="0197e1f7-0a81-4854-a2d1-9f87b4e75a79" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Comment":"OK","Visit_Date":"28/02/2026","Healthcare_Prog...":"None","Apply":"Yes","facility":"Hongkong"}]]></property>
+         </properties>
+         <system-out><![CDATA[28-03-2026T17:18:01 - [TEST_CASE][PASSED] - Test Cases/Make Appointment: Test Cases/Make Appointment
+
+28-03-2026T17:18:02 - [TEST_STEP][PASSED] - switch (facility.toLowerCase()): null
+
+28-03-2026T17:18:02 - [TEST_STEP][PASSED] - case "hongkong":: null
+
+28-03-2026T17:18:02 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/select_FacilityHongkong")): Object: 'Object Repository/Dashboard Page/select_FacilityHongkong' is clicked on
+
+28-03-2026T17:18:12 - [MESSAGE][WARNING] - Waiting for element timed out
+
+28-03-2026T17:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/select_FacilityHongkong' is clicked on
+
+28-03-2026T17:18:12 - [TEST_STEP][PASSED] - break: null
+
+28-03-2026T17:18:12 - [TEST_STEP][PASSED] - if (Apply.equalsIgnoreCase("Yes")): Object: 'Object Repository/Dashboard Page/check_Apply for hospital readmission' is clicked on
+
+28-03-2026T17:18:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Dashboard Page/check_Apply for hospital readmission")): Object: 'Object Repository/Dashboard Page/check_Apply for hospital readmission' is clicked on
+
+28-03-2026T17:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/check_Apply for hospital readmission' is clicked on
+
+28-03-2026T17:18:12 - [TEST_STEP][PASSED] - if (Healthcare_Program.equalsIgnoreCase("Medicaid")): null
+
+28-03-2026T17:18:12 - [TEST_STEP][PASSED] - else if (Healthcare_Program.equalsIgnoreCase("Medicare")): null
+
+28-03-2026T17:18:12 - [TEST_STEP][PASSED] - else if (Healthcare_Program.equalsIgnoreCase("None")): Object: 'Object Repository/Dashboard Page/btn_RadioNone' is clicked on
+
+28-03-2026T17:18:12 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/btn_RadioNone")): Object: 'Object Repository/Dashboard Page/btn_RadioNone' is clicked on
+
+28-03-2026T17:18:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/btn_RadioNone' is clicked on
+
+28-03-2026T17:18:12 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard Page/txt_Date"), Visit_Date): Text '28/02/2026' is set on object 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:18:13 - [MESSAGE][PASSED] - Text '28/02/2026' is set on object 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:18:13 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dashboard Page/txt_Date"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:18:14 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:18:14 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard Page/txt_Comment"), Comment): Text 'OK' is set on object 'Object Repository/Dashboard Page/txt_Comment'
+
+28-03-2026T17:18:15 - [MESSAGE][PASSED] - Text 'OK' is set on object 'Object Repository/Dashboard Page/txt_Comment'
+
+28-03-2026T17:18:15 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/btn_Book appointment")): Object: 'Object Repository/Dashboard Page/btn_Book appointment' is clicked on
+
+28-03-2026T17:18:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/btn_Book appointment' is clicked on
+
+28-03-2026T17:18:15 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+28-03-2026T17:18:16 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+28-03-2026T17:18:16 - [TEST_STEP][PASSED] - timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date()): null
+
+28-03-2026T17:18:16 - [TEST_STEP][PASSED] - path = "Screenshots/screenshot_" + timestamp + ".png": null
+
+28-03-2026T17:18:16 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+28-03-2026T17:18:16 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\T14\\Katalon Studio\\webdemo_Katalon\\Reports\\20260328_171714\\TS_Appointment\\20260328_171714\\Screenshots/screenshot_20260328_171816.png]]
+
+28-03-2026T17:18:16 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/btn_Go to Homepage")): Object: 'Object Repository/Dashboard Page/btn_Go to Homepage' is clicked on
+
+28-03-2026T17:18:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/btn_Go to Homepage' is clicked on
+
+28-03-2026T17:18:17 - [TEST_STEP][PASSED] - verifyTextPresent("CURA Healthcare Service", false): Text 'CURA Healthcare Service' is present on page 
+
+28-03-2026T17:18:17 - [MESSAGE][PASSED] - Text 'CURA Healthcare Service' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment" time="15.474" classname="cadba85a-e2b8-44e6-94fd-97a81662c834" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Comment":"OK","Visit_Date":"28/03/2026","Healthcare_Prog...":"Medicaid","Apply":"No","facility":"Seoul"}]]></property>
+         </properties>
+         <system-out><![CDATA[28-03-2026T17:18:17 - [TEST_CASE][PASSED] - Test Cases/Make Appointment: Test Cases/Make Appointment
+
+28-03-2026T17:18:17 - [TEST_STEP][PASSED] - switch (facility.toLowerCase()): null
+
+28-03-2026T17:18:17 - [TEST_STEP][PASSED] - case "seoul":: null
+
+28-03-2026T17:18:17 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/select_FacilitySeoul")): Object: 'Object Repository/Dashboard Page/select_FacilitySeoul' is clicked on
+
+28-03-2026T17:18:27 - [MESSAGE][WARNING] - Waiting for element timed out
+
+28-03-2026T17:18:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/select_FacilitySeoul' is clicked on
+
+28-03-2026T17:18:27 - [TEST_STEP][PASSED] - break: null
+
+28-03-2026T17:18:27 - [TEST_STEP][PASSED] - if (Apply.equalsIgnoreCase("Yes")): null
+
+28-03-2026T17:18:27 - [TEST_STEP][PASSED] - if (Healthcare_Program.equalsIgnoreCase("Medicaid")): Object: 'Object Repository/Dashboard Page/btn_RadioMedicaid' is clicked on
+
+28-03-2026T17:18:27 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/btn_RadioMedicaid")): Object: 'Object Repository/Dashboard Page/btn_RadioMedicaid' is clicked on
+
+28-03-2026T17:18:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/btn_RadioMedicaid' is clicked on
+
+28-03-2026T17:18:28 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard Page/txt_Date"), Visit_Date): Text '28/03/2026' is set on object 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:18:29 - [MESSAGE][PASSED] - Text '28/03/2026' is set on object 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:18:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dashboard Page/txt_Date"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:18:29 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:18:29 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard Page/txt_Comment"), Comment): Text 'OK' is set on object 'Object Repository/Dashboard Page/txt_Comment'
+
+28-03-2026T17:18:30 - [MESSAGE][PASSED] - Text 'OK' is set on object 'Object Repository/Dashboard Page/txt_Comment'
+
+28-03-2026T17:18:30 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/btn_Book appointment")): Object: 'Object Repository/Dashboard Page/btn_Book appointment' is clicked on
+
+28-03-2026T17:18:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/btn_Book appointment' is clicked on
+
+28-03-2026T17:18:30 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+28-03-2026T17:18:31 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+28-03-2026T17:18:31 - [TEST_STEP][PASSED] - timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date()): null
+
+28-03-2026T17:18:31 - [TEST_STEP][PASSED] - path = "Screenshots/screenshot_" + timestamp + ".png": null
+
+28-03-2026T17:18:31 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+28-03-2026T17:18:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\T14\\Katalon Studio\\webdemo_Katalon\\Reports\\20260328_171714\\TS_Appointment\\20260328_171714\\Screenshots/screenshot_20260328_171831.png]]
+
+28-03-2026T17:18:32 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/btn_Go to Homepage")): Object: 'Object Repository/Dashboard Page/btn_Go to Homepage' is clicked on
+
+28-03-2026T17:18:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/btn_Go to Homepage' is clicked on
+
+28-03-2026T17:18:32 - [TEST_STEP][PASSED] - verifyTextPresent("CURA Healthcare Service", false): Text 'CURA Healthcare Service' is present on page 
+
+28-03-2026T17:18:33 - [MESSAGE][PASSED] - Text 'CURA Healthcare Service' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment" time="15.708" classname="6a442eca-c8c2-4845-beb9-85567e52725d" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Comment":"OK","Visit_Date":"22/03/2026","Healthcare_Prog...":"Medicare","Apply":"Yes","facility":"Tokyo"}]]></property>
+         </properties>
+         <system-out><![CDATA[28-03-2026T17:18:33 - [TEST_CASE][PASSED] - Test Cases/Make Appointment: Test Cases/Make Appointment
+
+28-03-2026T17:18:33 - [TEST_STEP][PASSED] - switch (facility.toLowerCase()): null
+
+28-03-2026T17:18:33 - [TEST_STEP][PASSED] - case "tokyo":: null
+
+28-03-2026T17:18:33 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/select_FacilityTokyo")): Object: 'Object Repository/Dashboard Page/select_FacilityTokyo' is clicked on
+
+28-03-2026T17:18:43 - [MESSAGE][WARNING] - Waiting for element timed out
+
+28-03-2026T17:18:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/select_FacilityTokyo' is clicked on
+
+28-03-2026T17:18:43 - [TEST_STEP][PASSED] - break: null
+
+28-03-2026T17:18:43 - [TEST_STEP][PASSED] - if (Apply.equalsIgnoreCase("Yes")): Object: 'Object Repository/Dashboard Page/check_Apply for hospital readmission' is clicked on
+
+28-03-2026T17:18:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Dashboard Page/check_Apply for hospital readmission")): Object: 'Object Repository/Dashboard Page/check_Apply for hospital readmission' is clicked on
+
+28-03-2026T17:18:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/check_Apply for hospital readmission' is clicked on
+
+28-03-2026T17:18:43 - [TEST_STEP][PASSED] - if (Healthcare_Program.equalsIgnoreCase("Medicaid")): null
+
+28-03-2026T17:18:43 - [TEST_STEP][PASSED] - else if (Healthcare_Program.equalsIgnoreCase("Medicare")): Object: 'Object Repository/Dashboard Page/btn_RadioMedicare' is clicked on
+
+28-03-2026T17:18:43 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/btn_RadioMedicare")): Object: 'Object Repository/Dashboard Page/btn_RadioMedicare' is clicked on
+
+28-03-2026T17:18:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/btn_RadioMedicare' is clicked on
+
+28-03-2026T17:18:44 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard Page/txt_Date"), Visit_Date): Text '22/03/2026' is set on object 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:18:44 - [MESSAGE][PASSED] - Text '22/03/2026' is set on object 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:18:44 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dashboard Page/txt_Date"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:18:45 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:18:45 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard Page/txt_Comment"), Comment): Text 'OK' is set on object 'Object Repository/Dashboard Page/txt_Comment'
+
+28-03-2026T17:18:46 - [MESSAGE][PASSED] - Text 'OK' is set on object 'Object Repository/Dashboard Page/txt_Comment'
+
+28-03-2026T17:18:46 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/btn_Book appointment")): Object: 'Object Repository/Dashboard Page/btn_Book appointment' is clicked on
+
+28-03-2026T17:18:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/btn_Book appointment' is clicked on
+
+28-03-2026T17:18:46 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+28-03-2026T17:18:47 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+28-03-2026T17:18:47 - [TEST_STEP][PASSED] - timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date()): null
+
+28-03-2026T17:18:47 - [TEST_STEP][PASSED] - path = "Screenshots/screenshot_" + timestamp + ".png": null
+
+28-03-2026T17:18:47 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+28-03-2026T17:18:47 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\T14\\Katalon Studio\\webdemo_Katalon\\Reports\\20260328_171714\\TS_Appointment\\20260328_171714\\Screenshots/screenshot_20260328_171847.png]]
+
+28-03-2026T17:18:47 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/btn_Go to Homepage")): Object: 'Object Repository/Dashboard Page/btn_Go to Homepage' is clicked on
+
+28-03-2026T17:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/btn_Go to Homepage' is clicked on
+
+28-03-2026T17:18:48 - [TEST_STEP][PASSED] - verifyTextPresent("CURA Healthcare Service", false): Text 'CURA Healthcare Service' is present on page 
+
+28-03-2026T17:18:48 - [MESSAGE][PASSED] - Text 'CURA Healthcare Service' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Make Appointment" time="15.426" classname="7d1e00e2-3ba2-4117-b581-9b35b10ad3f5" status="PASSED">
+         <properties>
+            <property name="data_binding"><![CDATA[{"Visit_Date":"22/01/2026","Healthcare_Prog...":"None","Apply":"No","(Default) Comme...":"","facility":"Seoul"}]]></property>
+         </properties>
+         <system-out><![CDATA[28-03-2026T17:18:48 - [TEST_CASE][PASSED] - Test Cases/Make Appointment: Test Cases/Make Appointment
+
+28-03-2026T17:18:48 - [TEST_STEP][PASSED] - switch (facility.toLowerCase()): null
+
+28-03-2026T17:18:48 - [TEST_STEP][PASSED] - case "seoul":: null
+
+28-03-2026T17:18:48 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/select_FacilitySeoul")): Object: 'Object Repository/Dashboard Page/select_FacilitySeoul' is clicked on
+
+28-03-2026T17:18:59 - [MESSAGE][WARNING] - Waiting for element timed out
+
+28-03-2026T17:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/select_FacilitySeoul' is clicked on
+
+28-03-2026T17:18:59 - [TEST_STEP][PASSED] - break: null
+
+28-03-2026T17:18:59 - [TEST_STEP][PASSED] - if (Apply.equalsIgnoreCase("Yes")): null
+
+28-03-2026T17:18:59 - [TEST_STEP][PASSED] - if (Healthcare_Program.equalsIgnoreCase("Medicaid")): null
+
+28-03-2026T17:18:59 - [TEST_STEP][PASSED] - else if (Healthcare_Program.equalsIgnoreCase("Medicare")): null
+
+28-03-2026T17:18:59 - [TEST_STEP][PASSED] - else if (Healthcare_Program.equalsIgnoreCase("None")): Object: 'Object Repository/Dashboard Page/btn_RadioNone' is clicked on
+
+28-03-2026T17:18:59 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/btn_RadioNone")): Object: 'Object Repository/Dashboard Page/btn_RadioNone' is clicked on
+
+28-03-2026T17:18:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/btn_RadioNone' is clicked on
+
+28-03-2026T17:18:59 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard Page/txt_Date"), Visit_Date): Text '22/01/2026' is set on object 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:19:00 - [MESSAGE][PASSED] - Text '22/01/2026' is set on object 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:19:00 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Dashboard Page/txt_Date"), Keys.chord(TAB)): Keys 'TAB + ' sent to object: 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:19:00 - [MESSAGE][PASSED] - Keys 'TAB + ' sent to object: 'Object Repository/Dashboard Page/txt_Date'
+
+28-03-2026T17:19:00 - [TEST_STEP][PASSED] - setText(findTestObject("Dashboard Page/txt_Comment"), Comment): Text '' is set on object 'Object Repository/Dashboard Page/txt_Comment'
+
+28-03-2026T17:19:01 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Dashboard Page/txt_Comment'
+
+28-03-2026T17:19:01 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/btn_Book appointment")): Object: 'Object Repository/Dashboard Page/btn_Book appointment' is clicked on
+
+28-03-2026T17:19:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/btn_Book appointment' is clicked on
+
+28-03-2026T17:19:02 - [TEST_STEP][PASSED] - verifyTextPresent("Appointment Confirmation", false): Text 'Appointment Confirmation' is present on page 
+
+28-03-2026T17:19:02 - [MESSAGE][PASSED] - Text 'Appointment Confirmation' is present on page 
+
+28-03-2026T17:19:02 - [TEST_STEP][PASSED] - timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date()): null
+
+28-03-2026T17:19:02 - [TEST_STEP][PASSED] - path = "Screenshots/screenshot_" + timestamp + ".png": null
+
+28-03-2026T17:19:02 - [TEST_STEP][PASSED] - takeScreenshot(path): Taking screenshot successfully
+
+28-03-2026T17:19:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\T14\\Katalon Studio\\webdemo_Katalon\\Reports\\20260328_171714\\TS_Appointment\\20260328_171714\\Screenshots/screenshot_20260328_171902.png]]
+
+28-03-2026T17:19:03 - [TEST_STEP][PASSED] - click(findTestObject("Dashboard Page/btn_Go to Homepage")): Object: 'Object Repository/Dashboard Page/btn_Go to Homepage' is clicked on
+
+28-03-2026T17:19:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Dashboard Page/btn_Go to Homepage' is clicked on
+
+28-03-2026T17:19:03 - [TEST_STEP][PASSED] - verifyTextPresent("CURA Healthcare Service", false): Text 'CURA Healthcare Service' is present on page 
+
+28-03-2026T17:19:04 - [MESSAGE][PASSED] - Text 'CURA Healthcare Service' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-03-2026T17:17:18 - [TEST_SUITE][PASSED] - TS_Appointment: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

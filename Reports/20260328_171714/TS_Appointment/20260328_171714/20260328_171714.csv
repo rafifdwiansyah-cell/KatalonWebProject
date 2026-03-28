@@ -1,0 +1,107 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Appointment,Chrome 146.0.7680.165,,,28-03-2026 17:17:18,28-03-2026 17:19:04,"1m - 46,222s",PASSED
+,,,,,,,
+Test Cases/Login,Chrome 146.0.7680.165,,,28-03-2026 17:17:18,28-03-2026 17:17:30,"11,966s",PASSED
+"DATA BINDING - {""Username"":""John Doe"",""Password"":""ThisIsNotAPassword""}",,,,,,,
+"openBrowser("""")",Chrome 146.0.7680.165,,,28-03-2026 17:17:19,28-03-2026 17:17:21,"1,970s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 146.0.7680.165,,,28-03-2026 17:17:21,28-03-2026 17:17:23,"2,661s",PASSED
+"click(findTestObject(""Login/btn_MakeAppointment""))",Chrome 146.0.7680.165,,,28-03-2026 17:17:23,28-03-2026 17:17:24,"0,884s",PASSED
+"setText(findTestObject(""Login/txt_Username""), Username)",Chrome 146.0.7680.165,,,28-03-2026 17:17:24,28-03-2026 17:17:25,"0,901s",PASSED
+"setText(findTestObject(""Login/txt_Password""), Password)",Chrome 146.0.7680.165,,,28-03-2026 17:17:25,28-03-2026 17:17:26,"0,692s",PASSED
+"click(findTestObject(""Login/btn_Login""))",Chrome 146.0.7680.165,,,28-03-2026 17:17:26,28-03-2026 17:17:26,"0,344s",PASSED
+"loginSuccess = verifyElementPresent(findTestObject(""Dashboard Page/btn_Book appointment""), 5, OPTIONAL)",Chrome 146.0.7680.165,,,28-03-2026 17:17:26,28-03-2026 17:17:27,"1,040s",PASSED
+delay(3),Chrome 146.0.7680.165,,,28-03-2026 17:17:27,28-03-2026 17:17:30,"3,049s",PASSED
+if (!(loginSuccess)),Chrome 146.0.7680.165,,,28-03-2026 17:17:30,28-03-2026 17:17:30,"0,001s",PASSED
+,,,,,,,
+Test Cases/Login,Chrome 146.0.7680.165,,,28-03-2026 17:17:30,28-03-2026 17:17:51,"20,307s",PASSED
+"DATA BINDING - {""Username"":""John Doe"",""Password"":""ThisIsNotAPasswo""}",,,,,,,
+"openBrowser("""")",Chrome 146.0.7680.165,,,28-03-2026 17:17:30,28-03-2026 17:17:31,"1,056s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 146.0.7680.165,,,28-03-2026 17:17:31,28-03-2026 17:17:34,"2,720s",PASSED
+"click(findTestObject(""Login/btn_MakeAppointment""))",Chrome 146.0.7680.165,,,28-03-2026 17:17:34,28-03-2026 17:17:35,"0,742s",PASSED
+"setText(findTestObject(""Login/txt_Username""), Username)",Chrome 146.0.7680.165,,,28-03-2026 17:17:35,28-03-2026 17:17:36,"0,971s",PASSED
+"setText(findTestObject(""Login/txt_Password""), Password)",Chrome 146.0.7680.165,,,28-03-2026 17:17:36,28-03-2026 17:17:37,"0,721s",PASSED
+"click(findTestObject(""Login/btn_Login""))",Chrome 146.0.7680.165,,,28-03-2026 17:17:37,28-03-2026 17:17:37,"0,353s",PASSED
+"loginSuccess = verifyElementPresent(findTestObject(""Dashboard Page/btn_Book appointment""), 5, OPTIONAL)",Chrome 146.0.7680.165,,,28-03-2026 17:17:37,28-03-2026 17:17:42,"5,072s",WARNING
+delay(3),Chrome 146.0.7680.165,,,28-03-2026 17:17:42,28-03-2026 17:17:45,"3,016s",PASSED
+if (!(loginSuccess)),Chrome 146.0.7680.165,,,28-03-2026 17:17:45,28-03-2026 17:17:51,"5,633s",PASSED
+,,,,,,,
+Test Cases/Login,Chrome 146.0.7680.165,,,28-03-2026 17:17:51,28-03-2026 17:18:01,"10,654s",PASSED
+"DATA BINDING - {""Username"":""John Doe"",""Password"":""ThisIsNotAPassword""}",,,,,,,
+"openBrowser("""")",Chrome 146.0.7680.165,,,28-03-2026 17:17:51,28-03-2026 17:17:52,"0,919s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 146.0.7680.165,,,28-03-2026 17:17:52,28-03-2026 17:17:55,"2,980s",PASSED
+"click(findTestObject(""Login/btn_MakeAppointment""))",Chrome 146.0.7680.165,,,28-03-2026 17:17:55,28-03-2026 17:17:55,"0,778s",PASSED
+"setText(findTestObject(""Login/txt_Username""), Username)",Chrome 146.0.7680.165,,,28-03-2026 17:17:55,28-03-2026 17:17:56,"0,922s",PASSED
+"setText(findTestObject(""Login/txt_Password""), Password)",Chrome 146.0.7680.165,,,28-03-2026 17:17:56,28-03-2026 17:17:57,"0,641s",PASSED
+"click(findTestObject(""Login/btn_Login""))",Chrome 146.0.7680.165,,,28-03-2026 17:17:57,28-03-2026 17:17:57,"0,343s",PASSED
+"loginSuccess = verifyElementPresent(findTestObject(""Dashboard Page/btn_Book appointment""), 5, OPTIONAL)",Chrome 146.0.7680.165,,,28-03-2026 17:17:57,28-03-2026 17:17:58,"1,037s",PASSED
+delay(3),Chrome 146.0.7680.165,,,28-03-2026 17:17:58,28-03-2026 17:18:01,"3,009s",PASSED
+if (!(loginSuccess)),Chrome 146.0.7680.165,,,28-03-2026 17:18:01,28-03-2026 17:18:01,"0,001s",PASSED
+,,,,,,,
+Test Cases/Make Appointment,Chrome 146.0.7680.165,,,28-03-2026 17:18:01,28-03-2026 17:18:17,"15,847s",PASSED
+"DATA BINDING - {""Comment"":""OK"",""Visit_Date"":""28/02/2026"",""Healthcare_Prog..."":""None"",""Apply"":""Yes"",""facility"":""Hongkong""}",,,,,,,
+switch (facility.toLowerCase()),Chrome 146.0.7680.165,,,28-03-2026 17:18:02,28-03-2026 17:18:12,"10,065s",PASSED
+"if (Apply.equalsIgnoreCase(""Yes""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:12,28-03-2026 17:18:12,"0,351s",PASSED
+"if (Healthcare_Program.equalsIgnoreCase(""Medicaid""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:12,28-03-2026 17:18:12,"0,002s",PASSED
+"else if (Healthcare_Program.equalsIgnoreCase(""Medicare""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:12,28-03-2026 17:18:12,"0,003s",PASSED
+"else if (Healthcare_Program.equalsIgnoreCase(""None""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:12,28-03-2026 17:18:12,"0,337s",PASSED
+"setText(findTestObject(""Dashboard Page/txt_Date""), Visit_Date)",Chrome 146.0.7680.165,,,28-03-2026 17:18:12,28-03-2026 17:18:13,"0,749s",PASSED
+"sendKeys(findTestObject(""Dashboard Page/txt_Date""), Keys.chord(TAB))",Chrome 146.0.7680.165,,,28-03-2026 17:18:13,28-03-2026 17:18:14,"0,555s",PASSED
+"setText(findTestObject(""Dashboard Page/txt_Comment""), Comment)",Chrome 146.0.7680.165,,,28-03-2026 17:18:14,28-03-2026 17:18:15,"0,881s",PASSED
+"click(findTestObject(""Dashboard Page/btn_Book appointment""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:15,28-03-2026 17:18:15,"0,660s",PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Chrome 146.0.7680.165,,,28-03-2026 17:18:15,28-03-2026 17:18:16,"0,532s",PASSED
+timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date()),Chrome 146.0.7680.165,,,28-03-2026 17:18:16,28-03-2026 17:18:16,"0,003s",PASSED
+"path = ""Screenshots/screenshot_"" + timestamp + "".png""",Chrome 146.0.7680.165,,,28-03-2026 17:18:16,28-03-2026 17:18:16,"0,001s",PASSED
+takeScreenshot(path),Chrome 146.0.7680.165,,,28-03-2026 17:18:16,28-03-2026 17:18:16,"0,337s",PASSED
+"click(findTestObject(""Dashboard Page/btn_Go to Homepage""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:16,28-03-2026 17:18:17,"0,653s",PASSED
+"verifyTextPresent(""CURA Healthcare Service"", false)",Chrome 146.0.7680.165,,,28-03-2026 17:18:17,28-03-2026 17:18:17,"0,483s",PASSED
+,,,,,,,
+Test Cases/Make Appointment,Chrome 146.0.7680.165,,,28-03-2026 17:18:17,28-03-2026 17:18:33,"15,474s",PASSED
+"DATA BINDING - {""Comment"":""OK"",""Visit_Date"":""28/03/2026"",""Healthcare_Prog..."":""Medicaid"",""Apply"":""No"",""facility"":""Seoul""}",,,,,,,
+switch (facility.toLowerCase()),Chrome 146.0.7680.165,,,28-03-2026 17:18:17,28-03-2026 17:18:27,"10,067s",PASSED
+"if (Apply.equalsIgnoreCase(""Yes""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:27,28-03-2026 17:18:27,"0,000s",PASSED
+"if (Healthcare_Program.equalsIgnoreCase(""Medicaid""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:27,28-03-2026 17:18:28,"0,352s",PASSED
+"setText(findTestObject(""Dashboard Page/txt_Date""), Visit_Date)",Chrome 146.0.7680.165,,,28-03-2026 17:18:28,28-03-2026 17:18:29,"1,029s",PASSED
+"sendKeys(findTestObject(""Dashboard Page/txt_Date""), Keys.chord(TAB))",Chrome 146.0.7680.165,,,28-03-2026 17:18:29,28-03-2026 17:18:29,"0,534s",PASSED
+"setText(findTestObject(""Dashboard Page/txt_Comment""), Comment)",Chrome 146.0.7680.165,,,28-03-2026 17:18:29,28-03-2026 17:18:30,"0,861s",PASSED
+"click(findTestObject(""Dashboard Page/btn_Book appointment""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:30,28-03-2026 17:18:30,"0,347s",PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Chrome 146.0.7680.165,,,28-03-2026 17:18:30,28-03-2026 17:18:31,"0,771s",PASSED
+timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date()),Chrome 146.0.7680.165,,,28-03-2026 17:18:31,28-03-2026 17:18:31,"0,001s",PASSED
+"path = ""Screenshots/screenshot_"" + timestamp + "".png""",Chrome 146.0.7680.165,,,28-03-2026 17:18:31,28-03-2026 17:18:31,"0,000s",PASSED
+takeScreenshot(path),Chrome 146.0.7680.165,,,28-03-2026 17:18:31,28-03-2026 17:18:32,"0,344s",PASSED
+"click(findTestObject(""Dashboard Page/btn_Go to Homepage""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:32,28-03-2026 17:18:32,"0,653s",PASSED
+"verifyTextPresent(""CURA Healthcare Service"", false)",Chrome 146.0.7680.165,,,28-03-2026 17:18:32,28-03-2026 17:18:33,"0,490s",PASSED
+,,,,,,,
+Test Cases/Make Appointment,Chrome 146.0.7680.165,,,28-03-2026 17:18:33,28-03-2026 17:18:48,"15,708s",PASSED
+"DATA BINDING - {""Comment"":""OK"",""Visit_Date"":""22/03/2026"",""Healthcare_Prog..."":""Medicare"",""Apply"":""Yes"",""facility"":""Tokyo""}",,,,,,,
+switch (facility.toLowerCase()),Chrome 146.0.7680.165,,,28-03-2026 17:18:33,28-03-2026 17:18:43,"10,054s",PASSED
+"if (Apply.equalsIgnoreCase(""Yes""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:43,28-03-2026 17:18:43,"0,352s",PASSED
+"if (Healthcare_Program.equalsIgnoreCase(""Medicaid""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:43,28-03-2026 17:18:43,"0,002s",PASSED
+"else if (Healthcare_Program.equalsIgnoreCase(""Medicare""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:43,28-03-2026 17:18:44,"0,344s",PASSED
+"setText(findTestObject(""Dashboard Page/txt_Date""), Visit_Date)",Chrome 146.0.7680.165,,,28-03-2026 17:18:44,28-03-2026 17:18:44,"0,935s",PASSED
+"sendKeys(findTestObject(""Dashboard Page/txt_Date""), Keys.chord(TAB))",Chrome 146.0.7680.165,,,28-03-2026 17:18:44,28-03-2026 17:18:45,"0,528s",PASSED
+"setText(findTestObject(""Dashboard Page/txt_Comment""), Comment)",Chrome 146.0.7680.165,,,28-03-2026 17:18:45,28-03-2026 17:18:46,"0,882s",PASSED
+"click(findTestObject(""Dashboard Page/btn_Book appointment""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:46,28-03-2026 17:18:46,"0,340s",PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Chrome 146.0.7680.165,,,28-03-2026 17:18:46,28-03-2026 17:18:47,"0,780s",PASSED
+timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date()),Chrome 146.0.7680.165,,,28-03-2026 17:18:47,28-03-2026 17:18:47,"0,001s",PASSED
+"path = ""Screenshots/screenshot_"" + timestamp + "".png""",Chrome 146.0.7680.165,,,28-03-2026 17:18:47,28-03-2026 17:18:47,"0,001s",PASSED
+takeScreenshot(path),Chrome 146.0.7680.165,,,28-03-2026 17:18:47,28-03-2026 17:18:47,"0,314s",PASSED
+"click(findTestObject(""Dashboard Page/btn_Go to Homepage""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:47,28-03-2026 17:18:48,"0,659s",PASSED
+"verifyTextPresent(""CURA Healthcare Service"", false)",Chrome 146.0.7680.165,,,28-03-2026 17:18:48,28-03-2026 17:18:48,"0,498s",PASSED
+,,,,,,,
+Test Cases/Make Appointment,Chrome 146.0.7680.165,,,28-03-2026 17:18:48,28-03-2026 17:19:04,"15,426s",PASSED
+"DATA BINDING - {""Visit_Date"":""22/01/2026"",""Healthcare_Prog..."":""None"",""Apply"":""No"",""(Default) Comme..."":"""",""facility"":""Seoul""}",,,,,,,
+switch (facility.toLowerCase()),Chrome 146.0.7680.165,,,28-03-2026 17:18:48,28-03-2026 17:18:59,"10,059s",PASSED
+"if (Apply.equalsIgnoreCase(""Yes""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:59,28-03-2026 17:18:59,"0,001s",PASSED
+"if (Healthcare_Program.equalsIgnoreCase(""Medicaid""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:59,28-03-2026 17:18:59,"0,000s",PASSED
+"else if (Healthcare_Program.equalsIgnoreCase(""Medicare""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:59,28-03-2026 17:18:59,"0,001s",PASSED
+"else if (Healthcare_Program.equalsIgnoreCase(""None""))",Chrome 146.0.7680.165,,,28-03-2026 17:18:59,28-03-2026 17:18:59,"0,347s",PASSED
+"setText(findTestObject(""Dashboard Page/txt_Date""), Visit_Date)",Chrome 146.0.7680.165,,,28-03-2026 17:18:59,28-03-2026 17:19:00,"1,017s",PASSED
+"sendKeys(findTestObject(""Dashboard Page/txt_Date""), Keys.chord(TAB))",Chrome 146.0.7680.165,,,28-03-2026 17:19:00,28-03-2026 17:19:00,"0,543s",PASSED
+"setText(findTestObject(""Dashboard Page/txt_Comment""), Comment)",Chrome 146.0.7680.165,,,28-03-2026 17:19:00,28-03-2026 17:19:01,"0,806s",PASSED
+"click(findTestObject(""Dashboard Page/btn_Book appointment""))",Chrome 146.0.7680.165,,,28-03-2026 17:19:01,28-03-2026 17:19:02,"0,634s",PASSED
+"verifyTextPresent(""Appointment Confirmation"", false)",Chrome 146.0.7680.165,,,28-03-2026 17:19:02,28-03-2026 17:19:02,"0,521s",PASSED
+timestamp = SimpleDateFormat(yyyyMMdd_HHmmss).format(new java.util.Date()),Chrome 146.0.7680.165,,,28-03-2026 17:19:02,28-03-2026 17:19:02,"0,001s",PASSED
+"path = ""Screenshots/screenshot_"" + timestamp + "".png""",Chrome 146.0.7680.165,,,28-03-2026 17:19:02,28-03-2026 17:19:02,"0,000s",PASSED
+takeScreenshot(path),Chrome 146.0.7680.165,,,28-03-2026 17:19:02,28-03-2026 17:19:03,"0,327s",PASSED
+"click(findTestObject(""Dashboard Page/btn_Go to Homepage""))",Chrome 146.0.7680.165,,,28-03-2026 17:19:03,28-03-2026 17:19:03,"0,648s",PASSED
+"verifyTextPresent(""CURA Healthcare Service"", false)",Chrome 146.0.7680.165,,,28-03-2026 17:19:03,28-03-2026 17:19:04,"0,491s",PASSED
