@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_Appointment</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>10</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>b33ebad2-c5eb-4b70-9ae3-d86e8ce4308a</testSuiteGuid>
+   <testCaseLink>
+      <guid>bbb3f978-0aee-4977-a37b-f6cffb67ac20</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>625b09de-238e-48b1-beac-6b5e4fe67e2b</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/df_Login</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>625b09de-238e-48b1-beac-6b5e4fe67e2b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Username</value>
+         <variableId>48fd0689-2714-43c7-b898-f183a4fc47f9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>625b09de-238e-48b1-beac-6b5e4fe67e2b</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>c7fd1468-7c89-400b-957c-accf7e32744d</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>871fcf22-70a0-49a8-b655-8d1f4d21caf3</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Make Appointment</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>3e70ee71-5888-49d0-9e79-4d26879c3bcd</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/df_Appointment</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>3e70ee71-5888-49d0-9e79-4d26879c3bcd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>facility</value>
+         <variableId>de99b2f3-c667-445a-a520-566780582c6e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3e70ee71-5888-49d0-9e79-4d26879c3bcd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Apply</value>
+         <variableId>f9796b0a-0b56-423a-b0f5-5f07ca899842</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3e70ee71-5888-49d0-9e79-4d26879c3bcd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Healthcare Program</value>
+         <variableId>94d15acb-ab55-452c-a93a-5d20dbf56800</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3e70ee71-5888-49d0-9e79-4d26879c3bcd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Visit Date</value>
+         <variableId>2260746d-cdf2-43ee-9222-b26a1d1a29b4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>3e70ee71-5888-49d0-9e79-4d26879c3bcd</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Comment</value>
+         <variableId>13f2a0e9-b8cb-4f10-9f39-e32b6195fe9f</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
